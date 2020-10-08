@@ -10,6 +10,8 @@
 
 ![alt text](Assets/Images/workdayplanner2.PNG)
 
+![alt text](Assets/Images/workdayplanner3.PNG)
+
 Implemented the code to workday planner application.
 Once user open the application,the time block's colors will be displayed as below:
 
