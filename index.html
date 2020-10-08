@@ -23,119 +23,138 @@
   </head>
 
   <body>
+    <!-- header of the page -->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <section class="lead">A simple calendar app for scheduling your work day<section>
       <section id="currentDay" class="lead"></section>
     </header>
     <section class="container schedule">
-    <!-- first row -->
+    <!-- first row for time block 9 am-->
     <section class="row" data-hour="9">
       <secton class="col-md-1 col-sm-1 col-xs-12 time">  
         9am     
       </secton>
       <section class="col-md-10 col-sm-10">
+        <!-- textarea for user to enter text -->
          <textarea></textarea>
      </section>
      <secton class="col-md-1 col-sm-1">
+       <!-- save button to save the user's event in localstorage -->
       <button class="saveBtn"><i class="fas fa-save"></i></button>
     </secton>
    </section>
-    <!-- second row -->
+    <!-- second row for time block 10 am-->
     <section class="row" data-hour="10">
       <secton class="col-md-1 col-sm-1 col-xs-12 time">    
         10am     
       </secton>
       <section class="col-md-10 col-sm-10">
+        <!-- textarea for user to enter text -->
          <textarea></textarea>
      </section>
      <secton class="col-md-1 col-sm-1">
+        <!-- save button to save the user's event in localstorage -->
        <button class="saveBtn"><i class="fas fa-save"></i></button>
      </secton>
    </section>
-   <!-- third row -->
+   <!-- third row for time block 11 am -->
    <section class="row" data-hour="11">
     <secton class="col-md-1 col-sm-1 col-xs-12 time">
       11am        
     </secton>
     <section class="col-md-10 col-sm-10">
+      <!-- textarea for user to enter text -->
        <textarea></textarea>
    </section>
    <secton class="col-md-1 col-sm-1">
+      <!-- save button to save the user's event in localstorage -->
      <button class="saveBtn"><i class="fas fa-save"></i></button>
    </secton>
  </section>
- <!-- fourth row -->
+ <!-- fourth row for time block 12 pm -->
  <section class="row" data-hour="12">
   <secton class="col-md-1 col-sm-1 col-xs-12 time">
     12pm        
   </secton>
   <section class="col-md-10 col-sm-10">
+    <!-- textarea for user to enter text -->
      <textarea></textarea>
  </section>
  <secton class="col-md-1 col-sm-1">
+    <!-- save button to save the user's event in localstorage -->
    <button class="saveBtn"><i class="fas fa-save"></i></button>
  </secton>
 </section>
-<!-- fifth row -->
+<!-- fifth row for time block 1 pm -->
 <section class="row" data-hour="13">
   <secton class="col-md-1 col-sm-1 col-xs-12 time">
     1pm       
   </secton>
   <section class="col-md-10 col-sm-10">
+    <!-- textarea for user to enter text -->
      <textarea></textarea>
  </section>
  <secton class="col-md-1 col-sm-1">
+    <!-- save button to save the user's event in localstorage -->
    <button class="saveBtn"><i class="fas fa-save"></i></button>
  </secton>
 </section>
-<!-- sixth row -->
+<!-- sixth row for time block 2 pm-->
 <section class="row" data-hour="14">
   <secton class="col-md-1 col-sm-1 col-xs-12 time">
     2pm        
   </secton>
   <section class="col-md-10 col-sm-10">
+    <!-- textarea for user to enter text -->
      <textarea></textarea>
  </section>
  <secton class="col-md-1 col-sm-1">
+    <!-- save button to save the user's event in localstorage -->
    <button class="saveBtn"><i class="fas fa-save"></i></button>
  </secton>
 </section>
-<!-- seventh row -->
+<!-- seventh row for time block 3 pm-->
 <section class="row" data-hour="15">
   <secton class="col-md-1 col-sm-1 col-xs-12 time">
    3pm        
   </secton>
   <section class="col-md-10 col-sm-10">
+    <!-- textarea for user to enter text -->
      <textarea></textarea>
  </section>
  <secton class="col-md-1 col-sm-1">
+    <!-- save button to save the user's event in localstorage -->
    <button class="saveBtn"><i class="fas fa-save"></i></button>
  </secton>
 </section>
-<!-- eigth row -->
+<!-- row 8 for time block 4 pm -->
 <section class="row" data-hour="16">
   <secton class="col-md-1 col-sm-1 col-xs-12 time">
    
     4pm        
   </secton>
   <section class="col-md-10 col-sm-10">
+    <!-- textarea for user to enter text -->
      <textarea></textarea>
  </section>
  <secton class="col-md-1 col-sm-1">
+    <!-- save button to save the user's event in localstorage -->
    <button class="saveBtn"><i class="fas fa-save"></i></button>
  </secton>
 </section>
-<!-- last row -->
+<!-- last row for time block 5 pm -->
 <section class="row" data-hour="17">
   <secton class="col-md-1 col-sm-1 col-xs-12 time">
    
     5pm          
   </secton>
   <section class="col-md-10 col-sm-10">
+    <!-- textarea for user to enter text -->
      <textarea></textarea>
  </section>
  <secton class="col-md-1 col-sm-1">
+    <!-- save button to save the user's event in localstorage -->
    <button class="saveBtn"><i class="fas fa-save"></i></button>
  </secton>
 </section>
@@ -143,10 +162,11 @@
     
       <!-- Timeblocks go here -->
     
-
+<!-- JQuery script file -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- moment.js for calculte time -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    
+    <!-- script file -->
     <script src="./Assets/script.js"></script>
   </body>
 </html>
