@@ -61,9 +61,10 @@ function renderSchedule() {
           var itemTextArea = items[i].text;
           console.log(itemTextArea);
           $("[data-hour=" + itemHour + "]")
-               .children()
+          .children()
                .children("textarea")
                .val(itemTextArea);
+               
      }
      console.log(
           $("[data-hour=" + itemHour + "]")
@@ -78,13 +79,13 @@ function renderSchedule() {
 //function saveItem will be called after user clicked save button
 function saveItem() {
      var $thisBlock = $(this);
-     var hourToUpdate = $(this).parent().parent().attr("data-hour");
+     // var hourToUpdate = $(this).parent().parent().attr("data-hour");
+     var hourToUpdate = $(this).parent().attr("data-hour");
      var itemToSave = $(this)
-          .parent()
-          .parent()
-          .children()
-          .children("textarea")
-          .val();
+     .parent()
+     .children()         
+         .children("textarea")
+      .val();                
      console.log("HERE", itemToSave);
      console.log("NOW", toDoList);
      //loop thru the arraylist to find the time block on which user saves event
